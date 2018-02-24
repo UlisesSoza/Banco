@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="soza.ulises.app.frags.Reservar_Home">
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <com.robertlevonyan.views.customfloatingactionbutton.FloatingLayout
+        android:id="@+id/floating_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fabMenuGravity="bottom|end"
+        app:fabMenuStyle="popUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabInit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_action_add"
+            />
+        <android.support.design.widget.FloatingActionButton
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_action_add"
+            />
+        <android.support.design.widget.FloatingActionButton
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_action_add"
+            />
+        <android.support.design.widget.FloatingActionButton
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_action_add"
+            />
+
+    </com.robertlevonyan.views.customfloatingactionbutton.FloatingLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservar"
+        />
+
+
+
+
+</FrameLayout>

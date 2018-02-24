@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Mis_Reservas_tab"
+        android:icon="@drawable/ic_action_calendar_month"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/Reservar_tab"
+        android:icon="@drawable/ic_assignment"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/Ajustes_tab"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/title_notifications" />
+
+</menu>
